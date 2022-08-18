@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200;300;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Panto</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="interior_header container">
+            <div class="top_header">
+                <h2 class="logo">Panto</h2>
+                <div class="header_burger" onclick="clickBurger()">
+                    <span></span>
+                </div>
+                <nav class="header_menu">
+                    <ul class="header_list">
+                        <li>Furniture</li>
+                        <li>Shop</li>
+                        <li>About Us</li>
+                        <li>Contact</li>
+                        <i class="bi bi-bag-plus-fill menu"></i>
+                    </ul>
+                </nav>
+                <i class="bi bi-bag-plus-fill hidden"></i>
+            </div>
+            <div class="center_header">
+                <h1>Make your interior more
+                    minimalistic & modern</h1>
+                <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
+                <div class="main_input">
+                    <div class="input">
+                        <input type="text" placeholder="Search furniture">
+                        <nav>
+                            <i class="bi bi-search"></i>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="section">
+            <div class="interior_section container">
+                <div class="title">
+                    <h2>Why
+                        Choosing Us</h2>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h3>Luxury facilities</h3>
+                        <p>The advantage of hiring a workspace with us is that givees you comfortable service and
+                            all-around
+                            facilities.</p>
+                        <h4> <span>More Info</span> <i class="bi bi-arrow-right"></i></h4>
+                    </div>
+                    <div class="item">
+                        <h3>Luxury facilities</h3>
+                        <p>The advantage of hiring a workspace with us is that givees you comfortable service and
+                            all-around
+                            facilities.</p>
+                        <h4> <span>More Info</span> <i class="bi bi-arrow-right"></i></h4>
+                    </div>
+                    <div class="item">
+                        <h3>Luxury facilities</h3>
+                        <p>The advantage of hiring a workspace with us is that givees you comfortable service and
+                            all-around
+                            facilities.</p>
+                        <h4> <span>More Info</span> <i class="bi bi-arrow-right"></i></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_2">
+            <div class="interior_section_2 container">
+                <h2 class="title">Best Selling Product</h2>
+                <div class="main_tabs">
+                    <ul class="tabs">
+                        <li class="tab active" data-tab="#tab_1">Chair</li>
+                        <li class="tab" data-tab="#tab_2">Beds</li>
+                        <li class="tab" data-tab="#tab_3">Sofa</li>
+                        <li class="tab" data-tab="#tab_4">Lamp</li>
+                    </ul>
+                </div>
+                <div class="cards active" id="tab_1">
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Chair
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (1).png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Chair
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Chair
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (3).png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Chair
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" id="tab_2">
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/bed_PNG17393.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Bed
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/png_bed_47811.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Bed
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/purepng.com-bedbedpadsackdossbedstead-1701527921715dx44o.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Bed
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/1638553762bed-png.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Bed
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" id="tab_3">
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/png_sofa_49167.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Sofa
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/kisspng-table-couch-sofa-bed-living-room-clic-clac-beige-armchair-5a84f628f15f45.0858981115186632089887.png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Sofa
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/kisspng-ikea-catalogue-table-chair-couch-yellow-armchair-5a7d43aaa91810.5231001915181587626926.png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Sofa
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark (2).png"
+                                alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Sofa
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" id="tab_4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/Interior-Ceiling-Lamp-Transparent-PNG.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Lamp
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/1-18332_street-light-png-file-transparent-background-lamp-png.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Lamp
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/Decorative-Lamp-PNG-Photo.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Lamp
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./img/Lamp-PNG-Free-File-Download.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h4 class="type">
+                                Lamp
+                            </h4>
+                            <h3>Sakarias Armchair</h3>
+                            <div class="rang">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="buy">
+                                <h3>$392</h3>
+                                <div class="btn_buy">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_3">
+            <div class="interior_section_3">
+                <div class="image">
+                    <div class="blocks">
+                        <div class="block"></div>
+                        <div class="block_2"></div>
+                        <div class="block_3"></div>
+                    </div>
+                    <img src="./img/Rectangle 1446.png " alt="">
+                </div>
+                <div class="txt">
+                    <h3>experiences</h3>
+                    <h2>we provide you the best experience</h2>
+                    <p>You don’t have to worry about the result because all of these interiors are made by people who
+                        are professionals in their fields with an elegant and lucurious style and with premium quality
+                        materials</p>
+                    <h4> <span>More Info</span> <i class="bi bi-arrow-right"></i></h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="section_4">
+            <div class="interior_section_4 container">
+                <div class="txt">
+                    <div class="interior_txt">
+                        <h3>Materials</h3>
+                        <h2>Very serious materials for making furniture</h2>
+                        <p>Because panto was very serious about designing furniture for our environment, using a very
+                            expensive and famous capital but at a relatively low price</p>
+                        <h4> <span>More Info</span> <i class="bi bi-arrow-right"></i></h4>
+                    </div>
+                </div>
+                <div class="main_image">
+                    <div class="image">
+                        <img src="./img/Rectangle 1450.png" alt="">
+                        <img src="./img/Rectangle 1450 (1).png" alt="">
+                    </div>
+                    <img class="img_sec_4" src="./img/Rectangle 1446 (1).png" alt="">
+                </div>
+            </div>
+        </section> -->
+
+        <section class="section_5">
+            <div class="interior_section_5 container">
+                <div class="title">
+                    <h3>Testimonials</h3>
+                    <h2>Our Client Reviews</h2>
+                </div>
+                <div class="items">
+                    <div class="btns">
+                        <div class="btn" id="btn" onclick="clickBtn()">
+                            <i class="bi bi-arrow-left"></i>
+                        </div>
+                        <div class="btn" id="btn_2" onclick="clickBtn()">
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="./img/unsplash__HqHX3LBN18.png" alt="">
+                        </div>
+                        <div class="card_item">
+                            <div class="card">
+                                <div class="avtor">
+                                    <img src="./img/Ellipse 1131.png" alt="">
+                                </div>
+                                <div class="txt_card">
+                                    <div class="title_card">
+                                        <h3>Bang Upin</h3>
+                                        <h4>Pedagang Asongan</h4>
+                                    </div>
+                                    <p>“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</p>
+                                    <div class="rang">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill none"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" id="item_2">
+                        <div class="image">
+                            <img src="./img/unsplash_JaXs8Tk5Iww.png" alt="">
+                        </div>
+                        <div class="card_item">
+                            <div class="card">
+                                <div class="avtor">
+                                    <img src="./img/Ellipse 1131 (1).png" alt="">
+                                </div>
+                                <div class="txt_card">
+                                    <div class="title_card">
+                                        <h3>Ibuk Sukijan</h3>
+                                        <h4>Ibu Rumah Tangga</h4>
+                                    </div>
+                                    <p>“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang
+                                        yang terlihat mewah“</p>
+                                    <div class="rang">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill none"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" id="item_3">
+                        <div class="image">
+                            <img src="./img/unsplash_h2_3dL9yLpU.png" alt="">
+                        </div>
+                        <div class="card_item">
+                            <div class="card">
+                                <div class="avtor">
+                                    <img src="./img/Ellipse 1131 (2).png" alt="">
+                                </div>
+                                <div class="txt_card">
+                                    <div class="title_card">
+                                        <h3>Mpok Ina</h3>
+                                        <h4>Karyawan Swasta</h4>
+                                    </div>
+                                    <p>“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</p>
+                                    <div class="rang">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill none"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="interior_footer container">
+                <div class="top">
+                    <div class="info_footer">
+                        <h2>Panto</h2>
+                        <p>The advantage of hiring a workspace with us is that givees you comfortable service and
+                            all-around
+                            facilities.</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li class="title_list">Services</li>
+                            <li>Email Marketing</li>
+                            <li>Campaigns </li>
+                            <li>Branding</li>
+                        </ul>
+                        <ul>
+                            <li class="title_list">Furniture</li>
+                            <li>Beds</li>
+                            <li>Chair</li>
+                            <li>All</li>
+                        </ul>
+                        <ul>
+                            <li class="title_list"><span>Follow Us</span></li>
+                            <li><i class="bi bi-facebook"></i><span>Facebook</span></li>
+                            <li><i class="bi bi-twitter"></i><span>Twitter</span></li>
+                            <li><i class="bi bi-instagram"></i><span>Instagram</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h3>Copyright © 2021</h3>
+                    <div>
+                        <h3>Terms & Conditions</h3>
+                        <h3>Privacy Policy</h3>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

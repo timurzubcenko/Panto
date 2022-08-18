@@ -1,0 +1,737 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gilroy-Bold';
+    /* font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif; */
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('./img/Rectangle\ 1441.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0 30px;
+
+}
+
+.interior_header {}
+
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    color: white;
+}
+
+.top_header ul {
+    list-style: none;
+    display: flex;
+    gap: 62px;
+}
+
+.logo {
+    font-family: 'Gilroy-Bold';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.top_header ul li {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.header_burger {
+    display: none;
+}
+
+.bi-bag-plus-fill.menu {
+    display: none;
+}
+
+.center_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 80px 0 0 0;
+}
+
+.center_header h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 80px;
+    line-height: 130%;
+    /* or 104px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.center_header p {
+    font-family: 'Gilroy-Regular';
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+    max-width: 606px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.861538px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 42px;
+    display: inline-block;
+    padding: 10px 20px;
+    display: inline-flex;
+    margin: 0 0 524px;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    font-family: 'Gilroy-Regular';
+    font-size: 18px;
+    /* line-height: 150%; */
+    /* or 27px */
+
+    color: #FFFFFF;
+}
+
+.input input {
+    outline: none;
+    width: 270px;
+}
+
+.input nav {
+    background: #E58411;
+    border-radius: 50%;
+    padding: 12.5px 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    padding: 120px 30px;
+}
+
+.interior_section {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.interior_section .title {
+    display: flex;
+    align-items: center;
+}
+
+.interior_section .title h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 42px;
+    line-height: 49px;
+    color: #1E1E1E;
+    width: 242px;
+}
+
+.items {
+    display: flex;
+    gap: 28px;
+}
+
+.interior_section .item h3 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #1E1E1E;
+    margin: 0 0 20px;
+}
+
+.interior_section .item p {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 185%;
+    /* or 30px */
+
+
+    color: #1E1E1E;
+    margin: 0 0 14px;
+}
+
+.interior_section .item h4 {
+    font-family: 'Gilroy-Regular';
+    font-size: 14px;
+    line-height: 185%;
+    /* identical to box height, or 26px */
+
+    display: flex;
+    align-items: center;
+    gap: 17.5px;
+    color: #E58411;
+}
+
+
+
+.section_2 {
+    padding: 50px 30px;
+    background: #F7F7F7;
+}
+
+.interior_section_2 {}
+
+.interior_section_2 .title {
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 42px;
+    line-height: 49px;
+
+    color: #1E1E1E;
+    margin: 0 0 32px;
+}
+
+.main_tabs {
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+.tabs {
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+    background: #EEEEEE;
+    border-radius: 44px;
+    padding: 6px;
+}
+
+.tab {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 185%;
+    /* or 33px */
+
+
+    color: #1E1E1E;
+
+    opacity: 0.8;
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+
+.tab.active {
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.interior_section_2 .cards.active {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 42px;
+}
+
+.interior_section_2 .cards {
+    display: none;
+}
+
+.interior_section_2 .card {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+
+.interior_section_2 .image {
+    background: #FAFAFA;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.interior_section_2 .image img {
+    width: 217px;
+    height: 255px;
+    object-fit: scale-down;
+}
+
+.interior_section_2 .txt {
+    padding: 13px 27px 21px 27px;
+}
+
+.interior_section_2 .txt .type {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.7554px;
+    line-height: 20px;
+
+    color: #8D8D8D;
+    margin: 0 0 6px;
+}
+
+.interior_section_2 .txt h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.3251px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #0D1B39;
+    margin: 0 0 8px;
+}
+
+.interior_section_2 .rang {
+    color: #F6B76F;
+    font-size: 14px;
+}
+
+.interior_section_2 .buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0 0 0;
+}
+
+.interior_section_2 .buy h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.3251px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #0D1B39;
+
+}
+
+.interior_section_2 .btn_buy {
+    color: #FFFFFF;
+    background: #0D1B39;
+    border-radius: 31px;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+
+
+.container_2 {
+    max-width: 1360px;
+}
+
+.section_3 {
+    padding: 240px 0;
+}
+
+.interior_section_3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 80px;
+
+}
+
+.interior_section_3 .image {
+    position: relative;
+}
+
+.interior_section_3 .image img {
+    padding: 80px 80px 80px 0;
+    width: 90%;
+    /* height: 445px; */
+    object-fit: cover;
+    object-position: right;
+}
+
+.interior_section_3 .txt {
+    margin: 0 30px;
+}
+
+.interior_section_3 .txt h3 {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+
+    color: #E58411;
+    margin: 0 0 20px;
+}
+
+.interior_section_3 .txt h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 42px;
+    line-height: 49px;
+    text-transform: capitalize;
+    max-width: 413px;
+    color: #1E1E1E;
+    margin: 0 0 20px;
+}
+
+.interior_section_3 .txt p {
+    font-family: 'Gilroy-Regular';
+    font-size: 18px;
+    line-height: 185%;
+    /* or 33px */
+
+
+    color: #1E1E1E;
+
+    opacity: 0.8;
+    max-width: 556px;
+    margin: 0 0 24px;
+}
+
+.interior_section_3 .txt h4 {
+    font-family: 'Gilroy-Regular';
+    font-size: 14px;
+    line-height: 185%;
+    /* identical to box height, or 26px */
+
+
+    color: #E58411;
+    display: flex;
+    gap: 17.5px;
+}
+
+.blocks {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.block {
+    background: #F7F7F7;
+    border-radius: 20px;
+    height: 20%;
+    width: 70%;
+}
+
+.block_2 {
+    background: #F7F7F7;
+    border-radius: 20px;
+    height: 60%;
+}
+
+.block_3 {
+    background: #eb9c3d80;
+    filter: blur(50px);
+    border-radius: 49px;
+    height: 10%;
+    width: 70%;
+}
+
+
+
+.section_5 {
+    margin: 0 30px 244px 30px;
+}
+
+.interior_section_5 {}
+
+.interior_section_5 .title {
+    text-align: center;
+}
+
+.interior_section_5 .title h3 {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+
+    color: #E58411;
+    margin: 0 0 20px;
+}
+
+.interior_section_5 .title h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+    margin: 0 0 60px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 30px;
+    position: relative;
+}
+
+.btns {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background: #FFFFFF;
+    box-shadow: 0px 7.03125px 19.5312px rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 18px 20px;
+    cursor: pointer;
+}
+
+.btn i {
+    color: #1E1E1E;
+    font-size: 22px;
+}
+
+.interior_section_5 .item {
+    position: relative;
+}
+
+.interior_section_5 .item .image img {
+    width: 100%;
+}
+
+.card_item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 18px;
+}
+
+.interior_section_5 .card {
+    text-align: center;
+}
+
+.interior_section_5 .txt_card {
+    background: #ffffff;
+    border-radius: 18.1182px;
+    text-align: center;
+    padding: 0 18px 18px 18px;
+}
+
+.interior_section_5 .txt_card p {
+    font-family: 'Gilroy-Regular';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #1E1E1E;
+
+    opacity: 0.8;
+    max-width: 252px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.interior_section_5 .avtor {
+    padding: 8px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: inline-flex;
+}
+
+.interior_section_5 .avtor img {
+    box-shadow: 0 0 15px #E5841150;
+    border-radius: 50%;
+}
+
+.interior_section_5 .title_card h3 {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+    padding: 25px 0 6px 0;
+    margin-top: -30px;
+}
+
+.interior_section_5 .title_card h4 {
+    font-family: 'Gilroy-Regular';
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1E1E1E;
+
+    opacity: 0.6;
+    margin: 0 0 22px;
+}
+
+.interior_section_5 .rang {
+    color: #F6973F;
+}
+
+.interior_section_5 .rang .none {
+    opacity: 0.3;
+}
+
+
+
+.footer {
+    background: #F7F7F7;
+    padding: 118px 30px 58px 30px;
+}
+
+.interior_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.interior_footer .top {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.interior_footer .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_footer {}
+
+.info_footer h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+    margin: 0 0 30px;
+}
+
+.info_footer p {
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+
+
+    color: #1E1E1E;
+
+    opacity: 0.8;
+    max-width: 293px;
+}
+
+.interior_footer .top ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.interior_footer .top ul li {
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 160%;
+    /* identical to box height, or 24px */
+
+
+    color: #1E1E1E;
+
+    opacity: 0.8;
+}
+
+.interior_footer .top ul .title_list {
+    color: #F6973F;
+}
+
+.interior_footer .top ul li {
+    display: flex;
+    gap: 10px;
+}
+
+.interior_footer .top ul li i {
+    font-size: 20px;
+}
+
+.interior_footer .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interior_footer .bottom div {
+    display: flex;
+    gap: 40px;
+}
+
+.interior_footer .bottom h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.204545px;
+
+    color: #1E2833;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.interior_footer .bottom div h3 {
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 160%;
+    /* identical to box height, or 24px */
+
+
+    color: #1E1E1E;
+
+    opacity: 1;
+}
