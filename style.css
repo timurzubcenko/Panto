@@ -6,9 +6,7 @@
 }
 
 body {
-    font-family: 'Gilroy-Bold';
-    /* font-family: 'DM Sans', sans-serif;
-    font-family: 'Inter', sans-serif; */
+    font-family: sans-serif;
 }
 
 .container {
@@ -42,7 +40,7 @@ body {
 }
 
 .logo {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 0.01em;
@@ -50,7 +48,7 @@ body {
 }
 
 .top_header ul li {
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 18px;
     line-height: 21px;
 
@@ -75,7 +73,7 @@ body {
 }
 
 .center_header h1 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 80px;
     line-height: 130%;
     /* or 104px */
@@ -88,7 +86,7 @@ body {
 }
 
 .center_header p {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 24px;
     line-height: 160%;
     /* or 38px */
@@ -119,7 +117,7 @@ body {
 .input input {
     background: transparent;
     border: none;
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 18px;
     /* line-height: 150%; */
     /* or 27px */
@@ -157,7 +155,7 @@ body {
 }
 
 .interior_section .title h2 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 42px;
     line-height: 49px;
     color: #1E1E1E;
@@ -170,7 +168,7 @@ body {
 }
 
 .interior_section .item h3 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 24px;
     line-height: 28px;
 
@@ -179,7 +177,7 @@ body {
 }
 
 .interior_section .item p {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 16px;
     line-height: 185%;
     /* or 30px */
@@ -190,7 +188,7 @@ body {
 }
 
 .interior_section .item h4 {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 14px;
     line-height: 185%;
     /* identical to box height, or 26px */
@@ -212,7 +210,7 @@ body {
 
 .interior_section_2 .title {
     text-align: center;
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 42px;
     line-height: 49px;
 
@@ -235,7 +233,7 @@ body {
 }
 
 .tab {
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 18px;
     line-height: 185%;
     /* or 33px */
@@ -289,7 +287,7 @@ body {
 }
 
 .interior_section_2 .txt .type {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16.7554px;
@@ -300,7 +298,7 @@ body {
 }
 
 .interior_section_2 .txt h3 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21.3251px;
@@ -326,7 +324,7 @@ body {
 }
 
 .interior_section_2 .buy h3 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21.3251px;
@@ -382,7 +380,7 @@ body {
 }
 
 .interior_section_3 .txt h3 {
-    font-family: 'Gilroy-SemiBold';
+    font-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.175em;
@@ -393,7 +391,7 @@ body {
 }
 
 .interior_section_3 .txt h2 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 42px;
     line-height: 49px;
     text-transform: capitalize;
@@ -403,7 +401,7 @@ body {
 }
 
 .interior_section_3 .txt p {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 18px;
     line-height: 185%;
     /* or 33px */
@@ -417,7 +415,7 @@ body {
 }
 
 .interior_section_3 .txt h4 {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 14px;
     line-height: 185%;
     /* identical to box height, or 26px */
@@ -471,7 +469,7 @@ body {
 }
 
 .interior_section_5 .title h3 {
-    font-family: 'Gilroy-SemiBold';
+    font-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -483,7 +481,7 @@ body {
 }
 
 .interior_section_5 .title h2 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 42px;
     line-height: 49px;
     text-align: center;
@@ -558,7 +556,7 @@ body {
 }
 
 .interior_section_5 .txt_card p {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -584,7 +582,7 @@ body {
 }
 
 .interior_section_5 .title_card h3 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -596,7 +594,7 @@ body {
 }
 
 .interior_section_5 .title_card h4 {
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', sans-serif;
     font-size: 14px;
     line-height: 14px;
     /* identical to box height */
@@ -643,7 +641,7 @@ body {
 .info_footer {}
 
 .info_footer h2 {
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 0.01em;
@@ -654,7 +652,7 @@ body {
 }
 
 .info_footer p {
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 15px;
     line-height: 160%;
     /* or 24px */
@@ -674,7 +672,7 @@ body {
 }
 
 .interior_footer .top ul li {
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 15px;
     line-height: 160%;
     /* identical to box height, or 24px */
@@ -709,7 +707,7 @@ body {
 }
 
 .interior_footer .bottom h3 {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -725,7 +723,7 @@ body {
 }
 
 .interior_footer .bottom div h3 {
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Medium', sans-serif;
     font-size: 15px;
     line-height: 160%;
     /* identical to box height, or 24px */
